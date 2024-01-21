@@ -31,7 +31,11 @@ function handleSubmit(event) {
         </td>
         <td>
         ${annualSalaryElement.value}
-        </td>
+        </td><td>
+  
+        <button onClick="deleteRow(event)">Delete</button>
+     
+       </td>
         `;
     
         firstNameElement.value = '';
@@ -42,3 +46,7 @@ function handleSubmit(event) {
     
     };
 
+    function deleteRow(event) {
+
+        event.target.parentElement.parentElement.remove();
+    }      
