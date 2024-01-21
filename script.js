@@ -56,9 +56,12 @@ function handleSubmit(event) {
         titleElement.value = '';
         annualSalaryElement.value = '';
     
-        // use a loop to add each row of annual salary 
+        // I think i need to use a loop to add each row of annual salary, I am not sure 
+        // if that is correct or not. 
+
 
     };
+
 
 
 
