@@ -13,15 +13,18 @@
   </header>
   <main>
     <h2>Add Employee</h2>
+    <div>
+
     <form onSubmit="handleSubmit(event)">
-      <input id="firstnameInput" placeholder="First Name" type="text">
-      <input id="lastnameInput" placeholder="Last Name" type="text">
+      <input id="firstNameInput" placeholder="First Name" type="text">
+      <input id="lastNameInput" placeholder="Last Name" type="text">
       <input id="idInput" placeholder="ID" type="text">
       <input id="titleInput" placeholder="Title" type="text">
       <input id="annualSalaryInput" placeholder="Annual Salary" type="number"> 
     
       <button id="submitButton">Submit</button>
       
+    </div>
 
       <section>
     <h2>Employees</h2>
@@ -48,7 +51,7 @@
   </main>
 
   <footer>
-    <p>Total Monthly</p>
+    <p>Total Monthly: $ <span></span></p>
   </footer>
 </body>
 </html>

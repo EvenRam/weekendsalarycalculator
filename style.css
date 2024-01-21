@@ -1,26 +1,50 @@
 style.css
 
+
+
 table {
-    width: 100%;
-    text-align: left;
+    width: 125%;
   }
+
   table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
-    height: 1.15em;
+    height: 1.20 em;
+    margin-left: 150px;
   }
   th, td {
-    padding: .5em;
+    padding: .8em;
     min-width: 3.5em;
+    margin-left: 150px;
+
+    
   }
   thead {
     background: lightblue;
     color: black;
+    
   }
-  tbody tr:nth-child(odd){ 
-    background: #fcfcfc;
-  }
-  tbody tr:nth-child(even){
-    background: #dcdcdc;
-  }
-  
+
+  h1 {
+    text-align: center;
+    background: lightyellow;
+    border-style:solid;
+    padding: 15px;
+    margin-right:550px;
+    margin-left: 50px;
+}
+
+h2{
+    margin-left: 120px;
+
+}
+Footer{
+
+    margin-left: 450px;
+    
+}
+
+div{
+    margin-left: 120px;
+
+}

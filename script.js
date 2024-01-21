@@ -1,20 +1,32 @@
+let salaryAddTotal = 0;
+
 onReady();
 
 function onReady(){
-console.log('js is working!!!')
+//console.log('js is working!!!')
 }
+
+
+let countElement = document.querySelector('span');
+
+countElement.textContent = salaryAddTotal;
+
+console.log('Cross our fingers JS works still.');
+
+onReady();
 
 function handleSubmit(event) {
 
+
     event.preventDefault();
-        let firstNameElement = document.getElementById('firstnameInput');
-        let lastNameElement= document.getElementById('lastnameInput');
+        let firstNameElement = document.getElementById('firstNameInput');
+        let lastNameElement= document.getElementById('lastNameInput');
         let idElement= document.getElementById('idInput');
         let titleElement= document.getElementById('titleInput');
         let annualSalaryElement= document.getElementById('annualSalaryInput');
 
         let inputContainer = document.querySelector('tbody');
-        
+        let salaryContainer = document.querySelector('footer');
         inputContainer.innerHTML += `
 
  <td>
@@ -44,7 +56,12 @@ function handleSubmit(event) {
         titleElement.value = '';
         annualSalaryElement.value = '';
     
+        // use a loop to add each row of annual salary 
+
     };
+
+
+
 
     function deleteRow(event) {
 
